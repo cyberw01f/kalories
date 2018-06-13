@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutMe">
+
+
+    <TextView
+        android:id="@+id/aboutMe"
+        android:layout_width="281dp"
+        android:layout_height="236dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:ems="10"
+        android:text="@string/app_details" />
+
+    <TextView
+        android:id="@+id/codeLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="129dp"
+        android:text="@string/view_code"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="245dp"
+        android:onClick="openChrome" />
+
+    <TextView
+        android:id="@+id/textLove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:text="@string/tooMuch"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="392dp" />
+</RelativeLayout>

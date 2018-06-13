@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/userWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/userHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@+id/userWeight"
+        android:layout_marginTop="175dp"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calcBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_below="@+id/userHeight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/bmiResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calcBMI"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Your BMI is"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <TextView
+        android:id="@+id/weightUnits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/userWeight"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:text="kgs" />
+
+    <TextView
+        android:id="@+id/heightUnits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/userHeight"
+        android:layout_alignStart="@+id/weightUnits"
+        android:text="cms" />
+
+    <TextView
+        android:id="@+id/bmiMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bmiResult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <Switch
+        android:id="@+id/switchImperial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="Imperial" />
+
+
+</RelativeLayout>
