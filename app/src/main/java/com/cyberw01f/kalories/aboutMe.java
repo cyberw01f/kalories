@@ -17,7 +17,7 @@ public class aboutMe extends AppCompatActivity {
 
     public void openChrome (View v){
         Intent i = new Intent(Intent.ACTION_VIEW,
-                Uri.parse("https://github.com/cyberw01f/kalories"));
+                Uri.parse("https://github.com/cyberw01f/mybmi"));
         startActivity(i);
     }
 }
