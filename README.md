@@ -2,6 +2,14 @@
 ## Application to calculate Body Mass Index
 A simple and privacy friendly android application to calculate your BMI.
 
+### Screenshots:
+<div class="row">
+  <div class="column">
+<img src="./Screenshots/Main_screen.png" height=400 title="Main Screen"/>
+<img src="./Screenshots/Result_screen.png" height=400 title="Results Screen"/>
+ </div>
+</div>
+
 ### Availability:
 For now you can build apks using the code, I will try to get the app onto Google Play Store and F-Droid repo in the near future.
 
